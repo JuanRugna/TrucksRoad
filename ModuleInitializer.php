@@ -161,14 +161,6 @@ class ModuleInitializer
         return new ProformasDelChoferController($model, $modelClientes, $modelViajes, $modelCargas, $modelEmpleados, $this->renderer);
     }
 
-    public function createEditarProformaController(){
-        include_once("model/EditarProformaModel.php");
-        include_once("controller/EditarProformaController.php");
-
-        $model = new EditarProformaModel($this->database);
-        return new EditarProformaController($model, $this->renderer);
-    }
-
     public function createCargasCombustibleController(){
         include_once("model/CargasCombustibleModel.php");
         include_once("controller/CargasCombustibleController.php");

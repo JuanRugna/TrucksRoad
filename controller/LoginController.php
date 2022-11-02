@@ -36,9 +36,12 @@ class LoginController
 
         else{
 
+            
+
             $mensaje["login"] = "Mail incorrecto o contraseña erronea";
 
             echo $this->render->render("view/loginView.php", $mensaje);
+            header("Location: ../index");
         }
 
     }

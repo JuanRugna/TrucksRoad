@@ -108,11 +108,11 @@
 
             <div class="form-group col-md-6">
                 <label for="inputDestino" >Lugar</label>
-                <input type="text" name="importe" id="lugar" class="form-control" placeholder="Lugar" value="${{lugar}}" disabled>
+                <input type="text" name="importe" id="lugar" class="form-control" placeholder="Lugar" value="{{lugar}}" disabled>
             </div>
             <div class="form-group col-md-6">
                 <label for="inputDestino" >Kilometros recorridos</label>
-                <input type="text" name="importe" id="kmRecorridos" class="form-control" placeholder="Kilometros recorridos" value="${{kilometrosRecorridos}}" disabled>
+                <input type="text" name="importe" id="kmRecorridos" class="form-control" placeholder="Kilometros recorridos" value="{{kilometrosRecorridos}}" disabled>
             </div>
         </div>
         {{/cargas}}

@@ -21,6 +21,7 @@ class EmpleadosController
 
                 case 2:
                     $data['actualizar'] = "disabled";
+                    $data['darBaja']="disabled";
                     break;
 
 

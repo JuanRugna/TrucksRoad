@@ -90,6 +90,8 @@ class ViajesController
         $this->viajesModel->modificarViaje($id, $origen, $destino, $fechaFinalizacion,$fechaInicio , $ETA, $ETD, $kilometrosActuales, $kilometrosFinal, $combustibleFinal, $combustibleConsumido, $idVehiculo, $idArrastrado);
 
         header("Location: ../viajes");
+
+
     }
 
     public function registerViaje(){
